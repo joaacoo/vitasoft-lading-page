@@ -802,7 +802,7 @@ footer a:hover {
         visibility: visible;
     }
 
-    .nav-links a:not(.btn-primary) {
+    .nav-links a:not(.btn-primary):not(.btn-outline) {
         width: 100%;
         text-align: center;
         padding: 1.2rem 0;
@@ -814,6 +814,11 @@ footer a:hover {
         margin: 0.6rem auto;
         width: 80%;
         text-align: center;
+        padding: 0.8rem 1.8rem;
+    }
+    
+    .nav-links a.btn-outline {
+        margin-bottom: 1.2rem;
     }
 
 
